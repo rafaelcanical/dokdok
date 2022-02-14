@@ -24,10 +24,9 @@
   "keywords": [],
   "author": "Rafael Morais <rafaelcanical@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^14.0.21",
-    "@types/yargs": "^15.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   }
 }
