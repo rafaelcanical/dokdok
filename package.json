@@ -3,7 +3,8 @@
   "name": "dokdok",
   "description": "Generate markdown file from insomnia.json file",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p ."
   },
   "bin": {
     "dokdok": "dist/index.js"
@@ -25,8 +26,10 @@
   "author": "Rafael Morais <rafaelcanical@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^14.0.21",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18"
   }
 }
